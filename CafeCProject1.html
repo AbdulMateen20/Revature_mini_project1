@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Coffee Day Gallery</title>
+  <link rel="stylesheet" href="CafeCProject1.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>Café Coffee Day Gallery</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#flavors-page">Flavours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section" id="home">
+      <form>
+        <input type="text" placeholder="Search Café Coffee Day flavors">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+  
+    <section class="cards">
+      <article class="card">
+        <img src="classic_coffee.jpeg" alt="Classic Coffee">
+        <h3>Classic Coffee</h3>
+        <p>Rich aromatic coffee blend perfect for every occasion.</p>
+      </article>
+      <article class="card">
+        <img src="dark_roast_coffee.jpeg" alt="Dark Roast Coffee">
+        <h3>Dark Roast</h3>
+        <p>Strong bold flavor for true coffee lovers.</p>
+      </article>
+      <article class="card">
+        <img src="dark_chocolate_coffee.jpeg" alt="Mint Coffee">
+        <h3>Chocolate Coffee</h3>
+        <p>Chocolate notes blended with smooth coffee.</p>
+      </article>
+    </section>
+
+
+    <section id="flavors-page" class="page-section">
+      <h2>Flavours Page</h2>
+      <p>Explore all delicious Café Coffee Day flavors available.</p>
+      <button id="flavorsBtn">Show Flavors</button>
+      <ul id="flavorsList"></ul>
+    </section>
+
+
+    <section id="contact" class="page-section">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Your Contact Number" required>
+      <button type="submit">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Café Coffee Day Gallery</p>
+  </footer>
+
+  <script src="CafeCProject1.js"></script>
+</body>
+</html>
